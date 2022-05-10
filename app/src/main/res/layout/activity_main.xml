@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonDisplay"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/disp" />
+
+        <EditText
+            android:id="@+id/editTextInput"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:hint="@string/enter"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/disp1" />
+</LinearLayout>
+
